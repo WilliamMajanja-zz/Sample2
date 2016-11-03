@@ -12,7 +12,7 @@ import commonLibrary.Log;
 
 public class SimpleEventRunner {
 
-@BeforeSuite
+
 public void createScreenshotFolder() {
 	
 		Log.createFolder();

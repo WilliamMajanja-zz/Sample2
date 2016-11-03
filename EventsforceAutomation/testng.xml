@@ -2,11 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Eventsforce">
 
-
-<listeners> 
-	<listener class-name="listener.TestNGListener" /> 
-</listeners> 
-
   <test name="TestAutomation">
     <classes>
       	<class name="testcases.AwardsEventRunner"/>
